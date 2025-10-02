@@ -1,8 +1,13 @@
+// src/components/Navbar.js
 import React from "react";
 
-function NavBar() {
-  // update the JSX being returned!
-  return <nav>NavBar</nav>;
+function Navbar() {
+  return (
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+    </nav>
+  );
 }
 
-export default NavBar;
+export default Navbar;
